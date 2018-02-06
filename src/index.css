@@ -1,0 +1,30 @@
+
+/*@import 'https://code.highcharts.com/css/highcharts.css';*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.chart-wrapper  {
+	width: 100%;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.highcharts-series path {
+	stroke-width: 0;
+}
+
+.highcharts-tooltip {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.highcharts-tooltip > span > span:first-child,
+.highcharts-tooltip > span > span:first-child + br {
+	display: none;
+}
